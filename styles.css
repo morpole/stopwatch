@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
 body {
   height: 100vh;
   background: url(https://d1s9j44aio5gjs.cloudfront.net/2021/10/Underwater-empty-pool.jpg)
@@ -16,12 +23,12 @@ body {
 }
 
 #timer {
-  width: 100%;
-  font-size: 72px;
+  width: 80%;
+  font-size: 3.5rem;
   text-align: center;
   margin-top: 20%;
   margin: 0px auto;
-  padding: 35px;
+  padding-top: 35px;
 }
 
 .buttons {
